@@ -32,6 +32,7 @@ BACKEND_ALIASES = {
     'disabled': 'celery.backends.base:DisabledBackend',
     'consul': 'celery.backends.consul:ConsulBackend',
     'dynamodb': 'celery.backends.dynamodb:DynamoDBBackend',
+    'redis_cluster': 'celery.backends.redis_cluster:RedisClusterBackend',
 }
 
 
